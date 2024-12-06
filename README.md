@@ -51,12 +51,12 @@ cdk deploy
 ### After deployment: (don't use the same api gateway endpoint as this resource no longer exists)
 
 #### check the lambda, api gateway, and dynamoDB in aws console:
-<img src="result-screenshot/API_Gateway.png" alt="Alt text" width="600" height="400">
-<img src="result-screenshot/Lambda.png" alt="Alt text" width="600" height="400">
-<img src="result-screenshot/Cloudformation_Stack.png" alt="Alt text" width="600" height="400">
+<img src="result-screenshot/API_Gateway.png" alt="Alt text" width="600" height="300">
+<img src="result-screenshot/Lambda.png" alt="Alt text" width="600" height="300">
+<img src="result-screenshot/Cloudformation_Stack.png" alt="Alt text" width="600" height="300">
 
 #### After deployment, CDK will output the API Gateway endpoint URL.
-<img src="result-screenshot/deployment.png" alt="Alt text" width="600" height="400">
+<img src="result-screenshot/deployment.png" alt="Alt text" width="600" height="300">
 
 ## 🧪 Testing the API
 
@@ -83,7 +83,7 @@ curl -X DELETE https://<api-gateway-endpoint>/tasks/{taskId}
 ```
 
 Testing Result:(don't use the same api gateway endpoint as this resource no longer exists)
-<img src="result-screenshot/Testing.png" alt="Alt text" width="600" height="400">
+<img src="result-screenshot/Testing.png" alt="Alt text" width="600" height="300">
 
 ## 🧹 Cleanup
 
