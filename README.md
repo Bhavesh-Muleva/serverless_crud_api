@@ -52,9 +52,9 @@ After deployment: (don't use the same api gateway endpoint as this resource no l
 <img src="result-screenshot/deployment.png" alt="Alt text" width="300" height="200">
 
 check the lambda, api gateway, and dynamoDB in aws console:
-<img src="result-screenshot/API_Gateway.png" alt="Alt text" width="300" height="200">
-<img src="result-screenshot/Lambda.png" alt="Alt text" width="300" height="200">
-<img src="result-screenshot/CloudFormation_Stack.png" alt="Alt text" width="300" height="200">
+<img src="result-screenshot/API_Gateway.png" alt="Alt text" width="600" height="400">
+<img src="result-screenshot/Lambda.png" alt="Alt text" width="600" height="400">
+<img src="result-screenshot/Cloudformation_Stack.png" alt="Alt text" width="600" height="400">
 
 After deployment, CDK will output the API Gateway endpoint URL.
 
